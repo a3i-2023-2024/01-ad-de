@@ -18,19 +18,19 @@ This tutorial in particular tackles an anomaly detection task via density estima
 Students are strongly encouraged to _run all lectures locally_. Doing this will require to:
 
 * Install Docker, by following the [online instructions](https://docs.docker.com/get-docker/).
-* Install Docker Compose, by following the [online
+* Linux users should also install Docker Compose, by following the [online
 instructions](https://docs.docker.com/compose/install/)
-* Clone the repository with the tutorial, in this case via the command:
+* Download or clone this repository, e.g. via the command:
 ```sh
 git clone https://github.com/a3i-2023-2024/01-ad-de.git
 ```
-* Start the container via Docker Compose, from the main directory of the
-tutorial:
+* Open a terminal in the main directory of the downloaded/cloned repository
+* Start the container via Docker Compose:
 ```sh
 docker compose up
 ```
 
-On linux systems, you may need to start the docker service first.
+On Linux systems, you may need to start the docker service first.
 
 No matter which OS your are running, the first execution of this process will be fairly long, since Docker will need to download a base image for the container (think of a virtual machine disk) and then some boilerplate configuration steps will need to be performed (e.g. installing jupyter in the container). Subsequent runs will be much faster.
 
