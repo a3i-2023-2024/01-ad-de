@@ -13,7 +13,7 @@ This tutorial in particular tackles an anomaly detection task via density estima
 
 # Accessing the Lecture #
 
-## Local Execution via Docker (Preferred) ##
+## Local Execution (Preferred) ##
 
 Students are strongly encouraged to _run all lectures locally_. Doing this will require to:
 
@@ -48,25 +48,6 @@ Copying one of the two addresses in a file browser will provide access to the Ju
 Once you are done, pressing CTRL+C on the terminal will close the Docker container.
 
 For more information about how Docker works (such as the difference between images and containers, or how to get rid of all of them once you are done with the tutorial), you can check the [Docker documentation](https://docs.docker.com/).
-
-## Local Execution without Docker ##
-
-You can avoid installing docker, if you are fine with configuring the runtime environment for every lecture yourself. In most cases, you'll just need to install all Python packages from the `requirements.txt` file that can be found in every repository.
-
-For example, with pip you could use:
-```sh
-pip install -r requirements.txt
-```
-
-Or, if you are using Anaconda as a Python distribution:
-```sh
-conda install --file requirements.txt
-```
-
-If you do this, it's a good idea to use [venv](https://docs.python.org/3/library/venv.html) or a similar system to avoid conflicts with packages of Python versions.
-
-Occasionally, configuring the lecture environment might require installing additional dependencies: in such situation specific instructions will be reported in the README.md file.
-
 
 ## Read-only Access and PDF Notes ##
 
